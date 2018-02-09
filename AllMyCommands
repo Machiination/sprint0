@@ -1,0 +1,15 @@
+echo "# sprint0" >> README.md
+git init
+git add README.md
+git add Section\ 1.1
+git add Section\ 3.1
+git add Section\ 5.1
+git config --global user.email "omarelsebai3@yahoo.com"
+git config --global user.name "Machiination"
+git commit -m "first commit"
+git checkout Section\ 3.1
+git remote add origin https://github.com/Machiination/sprint0.git
+git push -u origin master
+git rm README.md
+git commit -m "correcting mistake"
+git push

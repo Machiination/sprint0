@@ -13,3 +13,13 @@ git push -u origin master
 git rm README.md
 git commit -m "correcting mistake"
 git push
+git branch ReadMe
+git checkout ReadMe
+git init
+git add README.md
+git commit -m "Created a new branch ReadMe and added README.md to it"
+git checkout master
+git merge ReadMe
+git add AllMyCommands
+git commit -m "Added a list of all commands used in creating this repo"
+

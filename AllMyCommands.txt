@@ -22,4 +22,12 @@ git checkout master
 git merge ReadMe
 git add AllMyCommands
 git commit -m "Added a list of all commands used in creating this repo"
-
+git push
+git mv Section\ 1.1 Section\ 1.1.txt
+git mv Section\ 3.1 Section\ 3.1.txt
+git mv Section\ 5.1 Section\ 5.1.txt
+git mv AllMyCommands AllMyCommands.txt
+git commit -m "Gave all text files the .txt extension and updated AllMyCommands"
+git push
+git commit -m "Updated AllMyCommands.txt"
+git push

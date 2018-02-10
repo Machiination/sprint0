@@ -29,5 +29,8 @@ git mv Section\ 5.1 Section\ 5.1.txt
 git mv AllMyCommands AllMyCommands.txt
 git commit -m "Gave all text files the .txt extension and updated AllMyCommands"
 git push
+git add AllMyCommands.txt
 git commit -m "Updated AllMyCommands.txt"
+git push
+git commit -m "Added an omitted line in AllMyCommands.txt"
 git push
